@@ -1,0 +1,126 @@
+body {
+	font-size: 13px;
+	font-family: Verdana, sans-serif;
+	background-color: #F5F5F5;
+}
+
+#wrapper {
+	margin: 0px auto;
+	padding: 20px;
+	width: 700px;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+
+.centre {
+	text-align: center;
+}
+
+/* FORMULAIRE */
+
+.formulaire_01 {
+	margin: 0px auto;
+}
+
+.formulaire_01 fieldset {
+	border: 2px dotted green;
+	background-color: #D6D6D6;
+	padding: 20px;
+	font: 1em arial, sans-serif;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.fl-l {
+	float: left;
+}
+.fl-r {
+	float:right; 
+}
+
+.w25 {
+	width: 25%;
+}
+
+.w50 {
+	width: 50%
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	/*overflow: hidden;*/
+}
+
+.formulaire_01 label {
+	text-align: right;
+	font-weight: bold;
+}
+
+.formulaire_01 input, .formulaire_01 select {
+	margin: 0px 0px 5px 15px;
+} 
+
+#envoyer .bt {
+	border: #F00 green solid;
+	width: 120px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #fff;
+	margin-top: 25px;
+}
+
+#envoyer .bt:hover {
+	background-color: #90CE94;
+	color: #222;
+}
+
+
+/* RESULTATS DE LA RECHERCHE  */
+
+#resultat {
+	width: 700px;
+	margin: 5px auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #0A9001;
+	color: white;
+}
+
+.itineraire {
+	padding: 10px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	background-color: white;
+	color: black;
+	width: 60%;
+	margin: 10px auto;
+}
+
+.itineraire:hover {
+	background-color: #E8E8E8;
+	box-shadow: 0px 0px 3px 0px rgba(255,255,255,0.75);
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+
